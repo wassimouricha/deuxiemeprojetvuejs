@@ -1,3 +1,7 @@
+<style lang="scss">
+ @import "../assets/scss/style.scss"; // $text-primary would be defined in that file
+
+</style>
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
