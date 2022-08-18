@@ -7,6 +7,9 @@
     "paths": {
       "@/*": [
         "src/*"
+      ],
+      "@assets": [
+        "src/assets/*"
       ]
     },
     "lib": [
@@ -14,6 +17,7 @@
       "dom",
       "dom.iterable",
       "scripthost"
-    ]
+    ],
+    "jsx": "preserve"
   }
 }
