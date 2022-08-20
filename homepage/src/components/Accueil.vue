@@ -3,7 +3,7 @@
 </style>
 <template>
 
-    <div class="parent">
+    <div class="parent back">
         <Navbar/>
         <Side/>
         <Millieu/>
