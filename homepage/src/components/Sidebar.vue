@@ -10,7 +10,7 @@
                 <div class="menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link ">Accueil</a>
+                            <a :href="url" class="nav__link ">Accueil</a>
                         </li>
                         <li class="nav__item">
                             <a href="#about" class="nav__link">A propos</a>
@@ -42,6 +42,12 @@ export default defineComponent({
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  // fonction pour le liens href
+    data() {
+    return {
+      url: 'https://github.com/'
+    }
   },
 
 
