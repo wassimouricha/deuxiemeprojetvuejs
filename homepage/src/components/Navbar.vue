@@ -34,7 +34,7 @@ const DarkButton = () => DarkMode.value = !DarkMode.value
 
 nextTick(() => {
 // script pour le bouton du mode sombre
-const body = document.querySelectorAll('.back'); //je crée une constante nav , j'indique que cette constante va selectionner la balise nav (avec querySelector)
+const body = document.querySelectorAll('.back'); 
 const toggle = document.getElementById("toggle");//je crée une constante toggle , j'indique que cette constante va selectionner l'id toggle (avec getElementById) 
 const nav = document.getElementById("navb");//je crée une constante toggle , j'indique que cette constante va selectionner l'id toggle (avec getElementById) 
 toggle.onclick = function(){  //j'indique que lorsque l'on clique sur l'id alors elle va démarrer une fonction 
